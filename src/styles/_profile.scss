@@ -1,0 +1,45 @@
+
+
+
+.profil {
+    
+    &__container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__image {
+        margin-right: .75em;
+    }
+
+    &__img {
+        border-radius: 50%;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__name {
+        font-size: .9em;
+        margin-bottom: .4em;
+    }
+
+    &__logout {
+        background: rgba(255, 0, 0, 0.131);
+        color: red;
+        outline: 0;
+        border: 0;
+        padding: .2em .7em;
+        border: 1px solid rgba(255, 0, 0, 0.25);
+        border-radius: .6em;
+        cursor: pointer;
+        transition: background .5s ease-in-out;
+
+        &:hover {
+            background: rgba(255, 0, 0, 0.34);
+        }
+    }
+
+}

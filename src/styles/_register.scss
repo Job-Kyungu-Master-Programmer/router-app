@@ -1,0 +1,63 @@
+
+
+
+.reg {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+    &__container {
+        display: flex;
+    }
+
+    &__reg {
+        display: flex;
+        justify-content: center;
+        padding-top: 14em;
+        min-width: 50em;
+        background-color: white;
+        // background: green;
+    }
+
+    &__title {
+        margin-bottom: 1em;
+    }
+
+    &__form {
+        // background: green;
+        width: 60%;
+    }
+
+    &__form__infos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__input {
+        border: 0;
+        outline: 0;
+        padding: 1em 1em;
+        margin-bottom: 1.5em;
+
+        border: 1px solid #ccc;
+        border-radius: .3em;
+    }
+
+
+    &__image {
+        display: flex;
+        align-items: center;
+        // background: red;
+        width: 100%;
+        height: 100vh;
+
+        &__image {
+            width: 60em;
+            min-height: 45em;
+            background-image: url('../images//screen.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+    }
+}

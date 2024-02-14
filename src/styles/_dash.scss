@@ -1,0 +1,22 @@
+
+
+
+
+.dashboard {
+     padding: 0 2.5em;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+    //  border-bottom: 1px solid#f1efef;
+     height: 5.6em;
+
+     &__logo {
+        font-size: 2em;
+        font-weight: 900;
+     }
+
+     &__list {
+        display: flex;
+        align-items: center;
+     }
+}

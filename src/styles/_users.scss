@@ -1,0 +1,55 @@
+
+
+
+.users {
+    padding: 5em 3em;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 60%;
+}
+
+.card {
+    margin-right: 1.8em;
+    margin-bottom: 1.8em;
+    padding: 1em;
+    border-radius: .5em;
+    border: 1px solid #ccc;
+    width: 12em;
+    min-height: auto;
+    cursor: pointer;
+    transition: background-color .4s ease-in-out;
+
+    &:hover {
+        background-color: rgb(94, 94, 255);
+        color: whitesmoke;
+    }
+
+    &-image {
+        margin-bottom: .5em;
+        > img {
+            border-radius: 50%;
+        }
+    }
+
+    &-title {
+        margin-bottom: .5em;
+    }
+
+    &-actions {
+        margin-top: .5em;
+        
+        button {
+            padding: .8em .8em;
+            background-color: rgb(94, 94, 255);
+            color: white;
+            border: 0;
+            outline: 0;
+            border-radius: .5em;
+        }
+    }
+}
+

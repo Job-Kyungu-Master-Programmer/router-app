@@ -1,0 +1,19 @@
+{
+  "pubs": [],
+  "users": [
+    {
+      "id": 1,
+      "name": "Jeancy",
+      "lastName": "Dalos",
+      "mail": "jeancy@gmail.com",
+      "country": "usa",
+      "profession": "Dev",
+      "password": "JK"
+    }
+  ],
+  "photos": [
+    {
+      "file": "file"
+    }
+  ]
+}

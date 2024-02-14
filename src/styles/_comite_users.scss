@@ -1,0 +1,46 @@
+
+
+
+.comite {
+    background: rgb(35, 40, 35);
+    padding: 1em;
+    border-radius: .5em;
+    border: 1px solid #ccc;
+    width: 20em;
+    height: 24.5em;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        margin-bottom: 1em;
+        font-size: 1.12em;
+        font-weight: 500;
+        color: rgb(201, 10, 10);
+    }
+
+    &__img {
+        border-radius: 50%;
+        border:1px solid #ccc;
+    }
+
+    &__image {
+        margin-right: 1em;
+    }
+
+    &__card {
+        margin-bottom: 1em;
+        padding: .5em;
+        display: flex;
+        align-items: center;
+        border: 1px solid #ccc;
+        background: white;
+        border-radius: .5em;
+    }
+
+    &__name {
+        font-size: 1em;
+    }
+}

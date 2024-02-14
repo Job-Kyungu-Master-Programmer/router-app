@@ -1,0 +1,77 @@
+
+
+
+
+.pubs {
+    display: flex;
+    flex-direction: column;
+
+    &__card {
+        margin-bottom: 1.5em;
+        padding: 1em;
+        border: 1px solid #ccc;
+        cursor: pointer;
+        border-radius: .5em;    
+    }
+
+    &__user {
+        margin-bottom: 1em;
+        display: flex;
+        align-items: center;
+    
+        &__img {
+            border-radius: 50%;
+            margin-right: 1em;
+        }
+    }
+
+    &__text {
+        span {
+            font-size: 1.3em;
+        }
+    }
+
+    &__title {
+        font-size: 1.8em;
+        font-weight: 400;
+        max-width: 100%;
+        text-decoration: none;
+        color: inherit;
+        transition: color .3s linear ;
+        
+        &:hover {
+            color: rgb(82, 82, 255);
+        }
+    }
+
+    &__bottom {
+        margin-top: 2em;
+        display: flex;
+        align-items: center;
+    }
+
+
+    &__like {
+        margin-right: 3em;
+        display: flex;
+        align-items: center;
+        color: red;
+        cursor: pointer;
+    }
+
+    &__delete {
+        margin-right: 1em;
+        cursor: pointer;
+        color: rgba(255, 0, 0, 0.616);
+        transition: color .3s linear;
+
+        &:hover {
+            color: rgb(255, 0, 0);
+        }
+    }
+
+    &__date {
+        font-size: .97em!important;
+        color: #676767;
+    }
+}
